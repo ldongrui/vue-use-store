@@ -1,11 +1,15 @@
-// declare const useResize: {
-//     (el: HTMLElement, callback: Function): void;
-//     install: (app: App) => void;
-// }
+export declare const useResize: {
+    (el: HTMLElement, callback: Function): void;
+    install: (app: App) => void;
+}
 
-declare const useStorageUpdate: {
+export declare const useStorageUpdate: {
     (target: target, callback: Function): void;
     install: (app: App, options?: options) => void;
 }
 
-export default useStorageUpdate
+export declare const useFullScreen: {
+    (el: HTMLElement): { close: Function };
+    close: ()=>void;
+    install: (app: App) => void;
+}

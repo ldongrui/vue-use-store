@@ -1,9 +1,9 @@
 {
-  "name": "listen-storage",
-  "version": "0.0.3",
+  "name": "vue-use-store",
+  "version": "0.0.5",
   "description": "listen dom size change",
-  "main": "dist/listen-storage.umd.js",
-  "module": "dist/listen-storage.mjs",
+  "main": "dist/vue-use-store.umd.js",
+  "module": "dist/vue-use-store.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build"
@@ -17,5 +17,9 @@
   "devDependencies": {
     "vite": "^4.4.11",
     "vue": "^3.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ldongrui/vue-use-store"
   }
 }
